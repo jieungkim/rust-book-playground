@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2020 
+ *   All rights reserved.
+ */
 use std::io;
 use std::cmp::Ordering;
 use rand::Rng;
@@ -12,7 +16,7 @@ fn main() {
 
     loop {
         println!("type the number that you think correct.");
-    
+
         let mut guess = String::new();
 
         io::stdin().read_line(&mut guess)
